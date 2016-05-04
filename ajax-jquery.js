@@ -10,6 +10,8 @@ $('#my-button').click(function() {
     $('#show-server-text').text(data);
     
     
-  } )
+  }).fail(function() {console.log("Request gav fel!")})
+  
+  
 } 
 );
