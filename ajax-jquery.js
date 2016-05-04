@@ -1,1 +1,1 @@
-$('#my-button').click(function()) {console.log("Knappen klickades på")});
+$('#my-button').click(function() {console.log("Knappen klickades på")});
